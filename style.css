@@ -1,0 +1,88 @@
+/* Geral */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #cec3c3;
+  color: #fff;
+}
+
+
+
+/* Cabeçalho */
+header {
+  display: flex;
+  align-items: center;        
+  justify-content: space-between;
+  background: #125675;
+  padding: 15px 50px;
+}
+
+.logo-container img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+/* Menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Caixas */
+.box {
+  background: #3c3d3d;
+  margin: 20px 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+/* Vídeos */
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.videos-container iframe {
+  width: 300px;
+  height: 180px;
+}
+
+
+/* Rodapé */
+footer {
+  background:#125675;
+  padding: 20px 50px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  font-size: 30px;
+}
+
+.social-links a {
+  color: #fff;
+}
